@@ -1,0 +1,163 @@
+body {
+	max-width: 1000px;
+	margin: auto;
+}
+
+h1, h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+header h1 {
+	color: white;
+	background-color: #4aaaa5;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 50px;
+}
+header nav {
+	margin-top: 25px;
+	float: right;
+	margin-right: 50px;
+}
+
+header nav ul {
+	list-style-type:none; /*getting rid of the bollets*/
+}
+
+header nav li {
+	float: left; /* put them in a row*/
+	margin-right:5px; /* puting margin between the list items which are not on the separate lines*/
+    font-family: arial;
+}
+
+header nav li + li:before {
+	content: " | ";
+}
+
+.disabled {
+	pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+section {
+	clear: both;
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans‐serif";
+	color: #777777;
+	border-style: solid;
+    border-color: #dddddd;
+    border-width: 5px;
+	background-image: url("cork-wallet.png");
+	margin-top: -22px;
+}
+
+article {	
+	background-color: white;
+	padding: 20px;
+	max-width: 610px;
+	height: 430px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	display: inline-block;
+	padding-top: 0px;
+	padding-right: 20px;
+}
+
+article hr {
+	display: block;
+	width: 610px;
+}
+
+p {
+	margin-top: 24px;
+}
+
+#contact {
+	color: #4aaaa5;
+	font-size: 1.5em; 
+}
+
+#name, #email, #message {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	color: #adacb4;
+}
+
+#message {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: -10px;
+	color: #adacb4;
+}
+
+#button {
+	max-width: 120px;
+	max-height: 150px;
+	background-color: #4aaaa5;
+	color: white; 
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+aside {
+	float: right;
+	background-color: white;
+	max-width: 270px;
+	margin: 50px;
+	padding: 20px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 0px;
+	padding-top: 0px;
+}
+
+aside h3 {
+	color: #4aaaa5;
+	text-align: center;
+}
+
+aside nav ul {
+	list-style-type:none; /*getting rid of the bollets*/
+}
+
+aside nav ul li {
+	float: left;
+}
+#img1 {
+	width: 40px;
+	margin-left: -40px;
+	margin-right: 20px;
+}
+#img2 {
+	width: 40px;
+	margin-right: 20px;
+}
+
+#img3 {
+	width: 40px;
+	margin-right: 20px;
+}
+
+#stripe {
+	clear: both;
+	border: none;
+    height: 10px;
+    background-color: #4aaaa5;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer small {
+	background-color: #666666;
+	color: white;
+	padding: 30px;
+	display: block;
+	text-align: center;
+}
